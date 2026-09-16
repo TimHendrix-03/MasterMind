@@ -9,14 +9,15 @@ public class MasterMind {
 		
 		String pinWit = "wit";
 		String pinZwart = "Zwart";
+		String pinLeeg = "Leeg";
+		
 		String pinBlauw = "Blauw";
 		String pinRood = "Rood";
 		String pinGeel = "Geel";
 		String pinGroen = "Groen";
 		String pinPaars = "Paars";
 		String pinOranje = "Oranje";
-		String pinLeeg = "Leeg";		
-		
+				
 		// variabelen posities speelveld
 		
 		String kolom1Rij1Positie1 = pinLeeg;	
