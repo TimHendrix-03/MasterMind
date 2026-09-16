@@ -1,5 +1,7 @@
 package mastermind;
 
+import java.util.Scanner;
+
 public class MasterMind {
 
 	public static void main(String[] args) {
@@ -146,18 +148,115 @@ public class MasterMind {
 		codeVak2 = pinGeel;
 		codeVak3 = pinGroen;
 		codeVak4 = pinBlauw;
+		
+		// Rij 1 van Kolom 1
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("vul in positie 1 van rij 1 in kolom 1");
+		kolom1Rij1Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 1 in kolom 1");
+		kolom1Rij1Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 1 in kolom 1");
+		kolom1Rij1Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 1 in kolom 1");
+		kolom1Rij1Positie1 = sc.next();
+				
+		// Rij2
+		System.out.println("vul in positie 1 van rij 2 in kolom 1");
+		kolom1Rij2Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 2 in kolom 1");
+		kolom1Rij2Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 2 in kolom 1");
+		kolom1Rij2Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 2 in kolom 1");
+		kolom1Rij2Positie1 = sc.next();
+				
+		//Rij3
+		System.out.println("vul in positie 1 van rij 3 in kolom 1");
+		kolom1Rij3Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 3 in kolom 1");
+		kolom1Rij3Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 3 in kolom 1");
+		kolom1Rij3Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 3 in kolom 1");
+		kolom1Rij3Positie1 = sc.next();
+		
+		//Rij4
+		System.out.println("vul in positie 1 van rij 4 in kolom 1");
+		kolom1Rij4Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 4 in kolom 1");
+		kolom1Rij4Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 4 in kolom 1");
+		kolom1Rij4Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 4 in kolom 1");
+		kolom1Rij4Positie1 = sc.next();
+		
+		//Rij5
+		System.out.println("vul in positie 1 van rij 5 in kolom 1");
+		kolom1Rij5Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 5 in kolom 1");
+		kolom1Rij5Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 5 in kolom 1");
+		kolom1Rij5Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 5 in kolom 1");
+		kolom1Rij5Positie1 = sc.next();
+		
+		//RIj6
+		System.out.println("vul in positie 1 van rij 6 in kolom 1");
+		kolom1Rij6Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 6 in kolom 1");
+		kolom1Rij6Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 6 in kolom 1");
+		kolom1Rij6Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 6 in kolom 1");
+		kolom1Rij6Positie1 = sc.next();
+		
+		//Rij7
+		System.out.println("vul in positie 1 van rij 7 in kolom 1");
+		kolom1Rij7Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 7 in kolom 1");
+		kolom1Rij7Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 7 in kolom 1");
+		kolom1Rij7Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 7 in kolom 1");
+		kolom1Rij7Positie1 = sc.next();
+		
+		
+		//Rij8
+		System.out.println("vul in positie 1 van rij 8 in kolom 1");
+		kolom1Rij8Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 8 in kolom 1");
+		kolom1Rij8Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 8 in kolom 1");
+		kolom1Rij8Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 8 in kolom 1");
+		kolom1Rij8Positie1 = sc.next();
 
+		//Rij9
+		System.out.println("vul in positie 1 van rij 9 in kolom 1");
+		kolom1Rij9Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 9 in kolom 1");
+		kolom1Rij9Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 9 in kolom 1");
+		kolom1Rij9Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 9 in kolom 1");
+		kolom1Rij9Positie1 = sc.next();
+		
+		//Rij10
+		System.out.println("vul in positie 1 van rij 10 in kolom 1");
+		kolom1Rij10Positie1 = sc.next();		
+		System.out.println("vul in positie 2 van rij 10 in kolom 1");
+		kolom1Rij10Positie1 = sc.next();
+		System.out.println("vul in positie 3 van rij 10 in kolom 1");
+		kolom1Rij10Positie1 = sc.next();
+		System.out.println("vul in positie 4 van rij 10 in kolom 1");
+		kolom1Rij10Positie1 = sc.next();
+		sc.close();
 		
 		
 		
 		
-		
-		
-		//		System.out.println(kolom1Rij1Positie1);
-		
-		//		kolom1Rij1Positie1 = pinRood;
-		
-		//		System.out.println(kolom1Rij1Positie1);
+
 				
 				
 	}
