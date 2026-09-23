@@ -156,21 +156,13 @@ public class MasterMind {
 		kolom1Rij1Positie1 = sc.next();	
 		if (kolom1Rij1Positie1.equalsIgnoreCase(codeVak1)) {
 			System.out.println(pinZwart);}
-		else {
-			if(kolom1Rij1Positie1.equalsIgnoreCase(codeVak2)) {
-				System.out.println(pinWit);
-			}
-			else {
-				if(kolom1Rij1Positie1.equalsIgnoreCase(codeVak3)) {
-					System.out.println(pinWit);
-				}
-				else {
-					if(kolom1Rij1Positie1.equalsIgnoreCase(codeVak4)) {
-						System.out.println(pinWit);
-					}
-					else {
-						System.out.println(pinLeeg);
-					}
+		else {if(kolom1Rij1Positie1.equalsIgnoreCase(codeVak2)) {
+				System.out.println(pinWit);}
+			else {if(kolom1Rij1Positie1.equalsIgnoreCase(codeVak3)) {
+					System.out.println(pinWit);}
+				else {if(kolom1Rij1Positie1.equalsIgnoreCase(codeVak4)) {
+						System.out.println(pinWit);}
+					else {System.out.println(pinLeeg);}
 				}
 			}
 		}
@@ -178,21 +170,13 @@ public class MasterMind {
 		kolom1Rij1Positie2 = sc.next();
 		if (kolom1Rij1Positie2.equalsIgnoreCase(codeVak2)) {
 			System.out.println(pinZwart);}
-		else {
-			if(kolom1Rij1Positie2.equalsIgnoreCase(codeVak3)) {
-				System.out.println(pinWit);
-			}
-			else {
-				if(kolom1Rij1Positie2.equalsIgnoreCase(codeVak4)) {
-					System.out.println(pinWit);
-				}
-				else {
-					if(kolom1Rij1Positie2.equalsIgnoreCase(codeVak1)) {
-						System.out.println(pinWit);
-					}
-					else {
-						System.out.println(pinLeeg);
-					}
+		else {if(kolom1Rij1Positie2.equalsIgnoreCase(codeVak3)) {
+				System.out.println(pinWit);}
+			else {if(kolom1Rij1Positie2.equalsIgnoreCase(codeVak4)) {
+					System.out.println(pinWit);}
+				else {if(kolom1Rij1Positie2.equalsIgnoreCase(codeVak1)) {
+						System.out.println(pinWit);}
+					else {System.out.println(pinLeeg);}
 				}
 			}
 		}
@@ -200,21 +184,13 @@ public class MasterMind {
 		kolom1Rij1Positie3 = sc.next();
 		if (kolom1Rij1Positie3.equalsIgnoreCase(codeVak3)) {
 			System.out.println(pinZwart);}
-		else {
-			if(kolom1Rij1Positie3.equalsIgnoreCase(codeVak4)) {
-				System.out.println(pinWit);
-			}
-			else {
-				if(kolom1Rij1Positie3.equalsIgnoreCase(codeVak1)) {
-					System.out.println(pinWit);
-				}
-				else {
-					if(kolom1Rij1Positie3.equalsIgnoreCase(codeVak2)) {
-						System.out.println(pinWit);
-					}
-					else {
-						System.out.println(pinLeeg);
-					}
+		else {if(kolom1Rij1Positie3.equalsIgnoreCase(codeVak4)) {
+				System.out.println(pinWit);}
+			else {if(kolom1Rij1Positie3.equalsIgnoreCase(codeVak1)) {
+					System.out.println(pinWit);}
+				else {if(kolom1Rij1Positie3.equalsIgnoreCase(codeVak2)) {
+						System.out.println(pinWit);}
+					else {System.out.println(pinLeeg);}
 				}
 			}
 		}
@@ -222,21 +198,13 @@ public class MasterMind {
 		kolom1Rij1Positie4 = sc.next();
 		if (kolom1Rij1Positie4.equalsIgnoreCase(codeVak4)) {
 			System.out.println(pinZwart);}
-		else {
-			if(kolom1Rij1Positie4.equalsIgnoreCase(codeVak1)) {
-				System.out.println(pinWit);
-			}
-			else {
-				if(kolom1Rij1Positie4.equalsIgnoreCase(codeVak2)) {
-					System.out.println(pinWit);
-				}
-				else {
-					if(kolom1Rij1Positie4.equalsIgnoreCase(codeVak3)) {
-						System.out.println(pinWit);
-					}
-					else {
-						System.out.println(pinLeeg);
-					}
+		else {if(kolom1Rij1Positie4.equalsIgnoreCase(codeVak1)) {
+				System.out.println(pinWit);}
+			else {if(kolom1Rij1Positie4.equalsIgnoreCase(codeVak2)) {
+					System.out.println(pinWit);}
+				else {if(kolom1Rij1Positie4.equalsIgnoreCase(codeVak3)) {
+						System.out.println(pinWit);}
+					else {System.out.println(pinLeeg);}
 				}
 			}
 		}
