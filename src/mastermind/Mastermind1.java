@@ -19,10 +19,15 @@ public class Mastermind1 {
 		String pinPaars = "Paars";
 		String pinOranje = "Oranje";
 		
+		
+		//arrays
 		String []invoer = new String[4];
 		String []codeVak = new String[4];
+		
+		//tellers
 		int rij = 0;
-		int teller = 0;
+		int ronde = 0;
+		int win = 0;
 		
 		//start spel
 		codeVak[0] = pinRood;
@@ -34,20 +39,25 @@ public class Mastermind1 {
 		Scanner sc = new Scanner(System.in);
 		
 		for(rij=0; rij<=9;rij++) {
-			for(teller=0;teller<=3;teller++) {
+			for(ronde=0;ronde<=3;ronde++) {
 				System.out.println("Kies een kleur");
-				invoer[teller]=sc.next();
-				if(invoer[teller].equalsIgnoreCase(codeVak[0])||invoer[teller].equalsIgnoreCase(codeVak[1])||invoer[teller].equalsIgnoreCase(codeVak[2])||invoer[teller].equalsIgnoreCase(codeVak[3])) {
-					if(invoer[teller].equalsIgnoreCase(codeVak[teller])) {
+				invoer[ronde]=sc.next();
+				if(invoer[ronde].equalsIgnoreCase(codeVak[0])||invoer[ronde].equalsIgnoreCase(codeVak[1])||invoer[ronde].equalsIgnoreCase(codeVak[2])||invoer[ronde].equalsIgnoreCase(codeVak[3])) {
+					if(invoer[ronde].equalsIgnoreCase(codeVak[ronde])) {
 						System.out.println(pinZwart);
+						win=win+1;
+						if(win==4) {
+							rij = 10;
+						}
 					}else System.out.println(pinWit);
 				}else System.out.println(pinLeeg);
-			}
-		}
-		
-		
+			} System.out.println("ronde " + rij + 1);
+		}		
+		//win-verlies condities
+		if(win == 4) {
+			System.out.println("Je hebt Gewonnen");
+		}else System.out.println("Je hebt Verloren");
 		sc.close();
-		
 	}
 
 }
