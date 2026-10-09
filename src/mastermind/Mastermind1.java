@@ -46,10 +46,10 @@ public class Mastermind1 {
 			System.out.println(rij + 1);
 			for (ronde = 0; ronde < invoer.length; ronde++) {
 				int onbekendeInvoer = 0;
-				while (onbekendeInvoer < 6) {
+				while (onbekendeInvoer < kleurenInvoer.length) {
 					System.out.println("Kies een kleur");
 					invoer[ronde] = sc.next();
-					for (int j = 0; j <= 5; j++) {
+					for (int j = 0; j < kleurenInvoer.length; j++) {
 						if (invoer[ronde].equalsIgnoreCase(kleurenInvoer[j])) {
 							onbekendeInvoer = 6;
 							j = 6;
